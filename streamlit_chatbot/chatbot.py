@@ -1,17 +1,14 @@
 import streamlit as st
 import pandas as pd
 
-  # Set page title
-  st.title("My First Streamlit App")
+# Set page title
+st.title("My First Streamlit App")
+# Add header
+st.header("Welcome to the dashboard")
+# Add text
+st.write("This is a simple demonstration of Streamlit capabilities")
 
-  # Add header
-  st.header("Welcome to the dashboard")
- 
-  # Add text
-  st.write("This is a simple demonstration of Streamlit capabilities")
-
-
-  ## Creating a Simple Streamlit Chatbot
+## Creating a Simple Streamlit Chatbot
 def initialize_session_state():
     if "messages" not in st.session_state:
         st.session_state.messages = []
